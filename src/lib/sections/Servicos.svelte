@@ -1,37 +1,37 @@
 <script lang="ts">
-  import { Card, CardContent } from "$lib/components/ui/card";
-  import { Sparkles, Droplets, Zap, Star } from "@lucide/svelte";
+    import { Card, CardContent } from "$lib/components/ui/card";
+    import { Sparkles, Droplets, Zap, Star } from "@lucide/svelte";
 
-  const services = [
-    {
-      icon: Sparkles,
-      title: "Rejuvenescimento Facial",
-      description:
-        "Técnicas avançadas para revitalização e tonificação da pele facial, devolvendo o viço e a juventude natural.",
-      color: "accent",
-    },
-    {
-      icon: Droplets,
-      title: "Drenagem Linfática",
-      description:
-        "Drenagem especializada para redução de edemas, melhora da circulação e desintoxicação corporal.",
-      color: "secondary",
-    },
-    {
-      icon: Zap,
-      title: "Tratamentos Corporais",
-      description:
-        "Protocolos personalizados para modelagem corporal, redução de medidas e celulite.",
-      color: "accent",
-    },
-    {
-      icon: Star,
-      title: "Pós-Operatório",
-      description:
-        "Acompanhamento especializado pós-cirúrgico para recuperação otimizada e resultados superiores.",
-      color: "secondary",
-    },
-  ];
+    const services = [
+        {
+            icon: Sparkles,
+            title: "Rejuvenescimento Facial",
+            description:
+                "Técnicas avançadas para revitalização e tonificação da pele facial, devolvendo o viço e a juventude natural.",
+            color: "accent",
+        },
+        {
+            icon: Droplets,
+            title: "Drenagem Linfática",
+            description:
+                "Drenagem especializada para redução de edemas, melhora da circulação e desintoxicação corporal.",
+            color: "secondary",
+        },
+        {
+            icon: Zap,
+            title: "Tratamentos Corporais",
+            description:
+                "Protocolos personalizados para modelagem corporal, redução de medidas e celulite.",
+            color: "accent",
+        },
+        {
+            icon: Star,
+            title: "Pós-Operatório",
+            description:
+                "Acompanhamento especializado pós-cirúrgico para recuperação otimizada e resultados superiores.",
+            color: "secondary",
+        },
+    ];
 </script>
 
 <section id="servicos" class="py-24 bg-linear-to-b from-background to-muted/30">
