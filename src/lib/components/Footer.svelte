@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { Instagram, Facebook, Mail } from '@lucide/svelte';
+  import ScrollToTop from './ScrollToTop.svelte';
 
 	let links = [
 		{ label: "Sobre", url: "#sobre" },
@@ -61,6 +62,8 @@
 		</div>
 	</div>
 </footer>
+
+<ScrollToTop />
 
 <style>
 	.footer{
