@@ -29,10 +29,11 @@
 			</p>
 			<div class="flex flex-wrap justify-center gap-4">
 				<Button class={`bg-accent/60 hover:bg-accent/70 text-accent-foreground font-medium px-8 py-6 text-lg shadow-elegant hover:scale-105`}>
-					Agendar Consulta
+					<a href="#contato">Agendar Consulta</a>
 				</Button>
+
 				<Button variant="outline" class={`border-2 border-secondary-1 text-secondary hover:bg-secondary hover:text-white font-medium px-8 py-6 text-lg hover:scale-105`}>
-					Conheça os Serviços
+					<a href="#servicos">Conheça os Serviços</a>
 				</Button>
 			</div>
 		</div>

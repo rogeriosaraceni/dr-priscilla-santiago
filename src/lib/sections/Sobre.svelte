@@ -40,7 +40,7 @@
 					<div class="shadow-soft hover:shadow-elegant rounded-2xl bg-background p-8 transition-all duration-300 hover:-translate-y-1">
 						<div class="flex items-start gap-4">
 							<div class="rounded-xl bg-linear-to-br from-accent/20 to-accent/10 p-3">
-								<credential.icon />
+								<credential.icon class="w-6 h-6 text-accent"/>
 							</div>
 							<div>
 								<h3 class="font-playfair mb-2 text-xl font-semibold text-foreground">{credential.title}</h3>
