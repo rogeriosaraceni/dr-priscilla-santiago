@@ -22,7 +22,7 @@
 
 	<div class="animate-fade-in-up relative z-10 container mx-auto px-6 text-center">
 		<div class="mx-auto max-w-4xl">
-			<p class="animate-fade-in mb-4 font-medium tracking-wider text-accent uppercase">Fisioterapia Dermato-Funcional</p>
+			<p class="animate-fade-in mb-4 font-medium tracking-wider text-accent-foreground/70 uppercase">Fisioterapia Dermato-Funcional</p>
 			<h1 class="font-playfair mb-6 text-5xl leading-tight font-bold text-foreground md:text-7xl">Dra. Priscilla Santiago</h1>
 			<p class="mx-auto mb-8 max-w-2xl text-xl font-light text-muted-foreground md:text-2xl">
 				Excelência em tratamentos estéticos com técnicas avançadas e cuidado personalizado
@@ -32,7 +32,7 @@
 					<a href="#contato">Agendar Consulta</a>
 				</Button>
 
-				<Button variant="outline" class={`border-2 border-secondary-1 text-secondary hover:bg-secondary hover:text-white font-medium px-8 py-6 text-lg hover:scale-105`}>
+				<Button variant="outline" class={`border-2 border-secondary-2 text-secondary bg-zinc-50/50 hover:bg-secondary/50 hover:text-white font-medium px-8 py-6 text-lg hover:scale-105`}>
 					<a href="#servicos">Conheça os Serviços</a>
 				</Button>
 			</div>
