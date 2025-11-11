@@ -16,7 +16,7 @@
 
 <section class="relative flex h-screen items-center justify-center overflow-hidden">
 	<div class="parallax absolute inset-0" style="transform: translateY({scrollY * 0.5}px);">
-		<img src="hero.jpg" alt="Dra. Priscilla Santiago" class="h-full w-full object-cover" />
+		<img src="hero.jpg" alt="Dra. Priscilla Santiago" class="h-full w-full object-cover md:object-center object-right" />
 		<div class="absolute inset-0 bg-linear-to-b from-background/70 via-background/50 to-background"></div> 
 	</div>
 
