@@ -6,12 +6,12 @@
         {
             icon: MapPin,
             title: "Localização",
-            info: "Rua das Flores, 123 - Centro\nSão Paulo, SP",
+            info: "Av. Dos Estudantes, 150 - Centro\nCaieiras, SP",
         },
         {
             icon: Phone,
             title: "Telefone",
-            info: "(11) 9999-9999\nWhatsApp disponível",
+            info: "(11) 99277-2759\nWhatsApp disponível",
         },
         {
             icon: Mail,
@@ -21,7 +21,7 @@
         {
             icon: Clock,
             title: "Horário",
-            info: "Seg - Sex: 9h às 19h\nSáb: 9h às 14h",
+            info: "Seg, Qui e Sex: 8h às 20h",
         },
     ];
 </script>
@@ -40,7 +40,7 @@
             </p>
         </div>
 
-        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto mb-12">
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-2 max-w-6xl mx-auto mb-12">
             {#each contactInfo as item, index}
                 <div
                     class="text-center p-6 animate-fade-in-up"
@@ -62,7 +62,7 @@
         <div class="text-center animate-scale-in" style="animation-delay: 400ms;">
             <Button
                 size="lg"
-                href="https://wa.me/5511999999999"
+                href="https://wa.me/5511992772759?text=Olá"
                 target="_blank"
                 class="bg-secondary hover:bg-secondary/90 text-secondary-foreground font-medium px-12 py-6 text-lg shadow-elegant transition-all hover:scale-105 hover:shadow-elegant/80"
             >
